@@ -1,0 +1,168 @@
+private void easy1(int i)
+    {
+        if(i==0)
+            createboard();
+
+        dispboard();
+        String str1="",str2="";
+
+        d1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(userchoice==1 )
+                {
+                    arr[0]="X";
+                    computer1(2);
+                    dispboard();
+                    easy1(i+2);
+                    //if(check()=
+                }
+                else if(userchoice==2)
+                {
+                    arr[0]="O";
+                    computer1(1);
+                }
+
+            }
+        });
+
+        d2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(userchoice==1 )
+                {
+                    arr[1]="X";
+                    computer1(2);
+                    easy1(i+2);
+                }
+                else if(userchoice==2)
+                {
+                    arr[2]="O";
+                    computer1(1);
+                }
+
+            }
+        });
+        d3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(userchoice==1 )
+                {
+                    arr[2]="X";
+                    computer1(2);
+                    easy1(i+2);
+                }
+                else if(userchoice==2)
+                {
+                    arr[0]="O";
+                    computer1(1);
+                    easy1(i+2);
+                }
+
+            }
+        });
+        d4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(userchoice==1 )
+                {
+                    arr[3]="X";
+                    computer1(2);
+                    easy1(i+2);
+                }
+                else if(userchoice==2)
+                {
+                    arr[0]="O";
+                    computer1(1);
+                }
+
+            }
+        });
+        d5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(userchoice==1 )
+                {
+                    arr[4]="X";
+                    computer1(2);
+                    easy1(i+2);
+                }
+                else if(userchoice==2)
+                {
+                    arr[0]="O";
+                    computer1(1);
+                }
+
+            }
+        });
+        d6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(userchoice==1 )
+                {
+                    arr[5]="X";
+                    computer1(2);
+                    easy1(i+2);
+                }
+                else if(userchoice==2)
+                {
+                    arr[0]="O";
+                    computer1(1);
+                }
+
+            }
+        });
+        d7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(userchoice==1 )
+                {
+                    arr[6]="X";
+                    computer1(2);
+                    easy1(i+2);
+                }
+                else if(userchoice==2)
+                {
+                    arr[0]="O";
+                    computer1(1);
+                }
+
+            }
+        });
+        d8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(userchoice==1 )
+                {
+                    arr[7]="X";
+                    computer1(2);
+                    easy1(i+2);
+                }
+                else if(userchoice==2)
+                {
+                    arr[0]="O";
+                    computer1(1);
+                }
+
+            }
+        });
+        d9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(userchoice==1 )
+                {
+                    arr[8]="X";
+                    computer1(2);
+                    easy1(i+2);
+                }
+                else if(userchoice==2)
+                {
+                    arr[0]="O";
+                    computer1(1);
+                }
+
+            }
+        });
+
+
+    }

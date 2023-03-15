@@ -1,0 +1,477 @@
+void buttoneasy(int i) {
+        //while (true) {
+            if (userchoice == 1 && i % 2 == 0) {
+                d1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=1;
+                        if (arr[1 - 1].equals(" ") == true) {
+                            arr[1 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+                d2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=2;
+                        if (arr[2 - 1].equals(" ") == true) {
+                            arr[2 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=3;
+                        if (arr[3 - 1].equals(" ") == true) {
+                            arr[3 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=4;
+                        if (arr[4 - 1].equals(" ") == true) {
+                            arr[4 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d5.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=5;
+                        if (arr[5 - 1].equals(" ") == true) {
+                            arr[5 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d6.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=6;
+                        if (arr[6 - 1].equals(" ") == true) {
+                            arr[6 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d7.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=7;
+                        if (arr[7 - 1].equals(" ") == true) {
+                            arr[7 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d8.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=8;
+                        if (arr[8 - 1].equals(" ") == true) {
+                            arr[8 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d9.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=9;
+                        if (arr[9 - 1].equals(" ") == true) {
+                            arr[9 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+            }
+
+            if (userchoice == 2 && i % 2 == 1) {
+                d1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=1;
+                        if (arr[1 - 1].equals(" ") == true) {
+                            arr[1 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+                d2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=2;
+                        if (arr[2 - 1].equals(" ") == true) {
+                            arr[2 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=3;
+                        if (arr[3 - 1].equals(" ") == true) {
+                            arr[3 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=4;
+                        if (arr[4 - 1].equals(" ") == true) {
+                            arr[4 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d5.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=5;
+                        if (arr[5 - 1].equals(" ") == true) {
+                            arr[5 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d6.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=6;
+                        if (arr[6 - 1].equals(" ") == true) {
+                            arr[6 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d7.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=7;
+                        if (arr[7 - 1].equals(" ") == true) {
+                            arr[7 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d8.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=8;
+                        if (arr[8 - 1].equals(" ") == true) {
+                            arr[8 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d9.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=9;
+                        if (arr[9 - 1].equals(" ") == true) {
+                            arr[9 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+            }
+
+            Toast.makeText(getApplicationContext(), "BEND OF METHODEASY()", Toast.LENGTH_SHORT).show();
+      //  }
+    }
+
+
+
+
+
+
+void buttoneasy(int i) {
+        //while (true) {
+            if (userchoice == 1 && i % 2 == 0) {
+                d1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=1;
+                        if (arr[1 - 1].equals(" ") == true) {
+                            arr[1 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+                d2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=2;
+                        if (arr[2 - 1].equals(" ") == true) {
+                            arr[2 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=3;
+                        if (arr[3 - 1].equals(" ") == true) {
+                            arr[3 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=4;
+                        if (arr[4 - 1].equals(" ") == true) {
+                            arr[4 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d5.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=5;
+                        if (arr[5 - 1].equals(" ") == true) {
+                            arr[5 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d6.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=6;
+                        if (arr[6 - 1].equals(" ") == true) {
+                            arr[6 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d7.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=7;
+                        if (arr[7 - 1].equals(" ") == true) {
+                            arr[7 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d8.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=8;
+                        if (arr[8 - 1].equals(" ") == true) {
+                            arr[8 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d9.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=9;
+                        if (arr[9 - 1].equals(" ") == true) {
+                            arr[9 - 1] = "X";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+            }
+
+            if (userchoice == 2 && i % 2 == 1) {
+                d1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=1;
+                        if (arr[1 - 1].equals(" ") == true) {
+                            arr[1 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+                d2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=2;
+                        if (arr[2 - 1].equals(" ") == true) {
+                            arr[2 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=3;
+                        if (arr[3 - 1].equals(" ") == true) {
+                            arr[3 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=4;
+                        if (arr[4 - 1].equals(" ") == true) {
+                            arr[4 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d5.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=5;
+                        if (arr[5 - 1].equals(" ") == true) {
+                            arr[5 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d6.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=6;
+                        if (arr[6 - 1].equals(" ") == true) {
+                            arr[6 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d7.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=7;
+                        if (arr[7 - 1].equals(" ") == true) {
+                            arr[7 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d8.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=8;
+                        if (arr[8 - 1].equals(" ") == true) {
+                            arr[8 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+                d9.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        //cellno=9;
+                        if (arr[9 - 1].equals(" ") == true) {
+                            arr[9 - 1] = "O";
+                            return;
+                        } else {
+                            Toast.makeText(getApplicationContext(), "BUTTON UNAVAILABLE", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+            }
+
+            Toast.makeText(getApplicationContext(), "BEND OF METHODEASY()", Toast.LENGTH_SHORT).show();
+      //  }
+    }
+
+
+
+ str1=arraytostring(arr);
+                buttoneasy(i);
+                str2=arraytostring(arr);
+                if(str1.equals(str2))
+                {
+                    i--;
+                }
+                Toast.makeText(getApplicationContext(), "METHOD EASY()", Toast.LENGTH_SHORT).show();
