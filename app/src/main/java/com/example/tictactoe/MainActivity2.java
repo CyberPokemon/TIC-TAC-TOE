@@ -50,17 +50,24 @@ public class MainActivity2 extends AppCompatActivity {
                 {
                     if (mode1 == 0 && mode2 == 0 && mode3 == 0)
                     {
+                        easy.setText("|EASY|");
                         mode1 = 1;
 
                     }
                     else if (mode1 == 1 && mode2 == 0 && mode3 == 0)
                     {
+                        easy.setText("EASY");
                         mode1 = 0;
                     }
-                    else if (mode1 == 0 && (mode2 == 1 || mode3 == 1)) {
+                    else if (mode1 == 0 && (mode2 == 1 || mode3 == 1))
+                    {
                         mode1 = 1;
                         mode2 = 0;
                         mode3 = 0;
+                        easy.setText("|EASY|");
+                        medium.setText("MEDIUM");
+                        hard.setText("HARD");
+
                     }
                 }
 
@@ -78,12 +85,17 @@ public class MainActivity2 extends AppCompatActivity {
 
                     if (mode1 == 0 && mode2 == 0 && mode3 == 0) {
                         mode2 = 1;
+                        medium.setText("|MEDIUM|");
                     } else if (mode1 == 0 && mode2 == 1 && mode3 == 0) {
                         mode2 = 0;
+                        medium.setText("MEDIUM");
                     } else if (mode2 == 0 && (mode1 == 1 || mode3 == 1)) {
                         mode1 = 0;
                         mode2 = 1;
                         mode3 = 0;
+                        easy.setText("EASY");
+                        medium.setText("|MEDIUM|");
+                        hard.setText("HARD");
                     }
                 }
             }
@@ -99,12 +111,17 @@ public class MainActivity2 extends AppCompatActivity {
 
                     if (mode1 == 0 && mode2 == 0 && mode3 == 0) {
                         mode3 = 1;
+                        hard.setText("|HARD|");
                     } else if (mode1 == 0 && mode2 == 0 && mode3 == 1) {
                         mode3 = 0;
+                        hard.setText("HARD");
                     } else if (mode3 == 0 && (mode2 == 1 || mode1 == 1)) {
                         mode1 = 0;
                         mode2 = 0;
                         mode3 = 1;
+                        easy.setText("EASY");
+                        medium.setText("MEDIUM");
+                        hard.setText("|HARD|");
                     }
                 }
             }
@@ -121,11 +138,15 @@ public class MainActivity2 extends AppCompatActivity {
 
                     if (turn1 == 0 && turn2 == 0) {
                         turn1 = 1;
+                        x.setText("|X|");
                     } else if (turn1 == 1 && turn2 == 0) {
                         turn1 = 0;
+                        x.setText("X");
                     } else if (turn1 == 0 && turn2 == 1) {
                         turn2 = 0;
                         turn1 = 1;
+                        x.setText("|X|");
+                        y.setText("O");
                     }
                 }
             }
@@ -141,11 +162,15 @@ public class MainActivity2 extends AppCompatActivity {
 
                     if (turn1 == 0 && turn2 == 0) {
                         turn2 = 1;
+                        y.setText("|O|");
                     } else if (turn2 == 1 && turn1 == 0) {
                         turn2 = 0;
+                        y.setText("O");
                     } else if (turn2 == 0 && turn1 == 1) {
                         turn1 = 0;
                         turn2 = 1;
+                        x.setText("X");
+                        y.setText("|O|");
                     }
                 }
             }
@@ -2625,6 +2650,12 @@ public class MainActivity2 extends AppCompatActivity {
         i=0;
         reset=0;
         top5bdisable=false;
+
+        easy.setText("EASY");
+        medium.setText("MEDIUM");
+        hard.setText("HARD");
+        x.setText("X");
+        y.setText("O");
     }
     void computer1(int n)
     {
@@ -3033,7 +3064,26 @@ public class MainActivity2 extends AppCompatActivity {
         //double com2[]={0/0, 1.5294117647058822, 1.75, 1.5294117647058822, 0/0, 1.5294117647058822, 1.75 ,1.5294117647058822, 0/0};
         String com1[]={" "," ","X"," ","O"," ","X"," "," "};
         String com2[]={"X"," "," "," ","O"," "," "," ","X"};
-        int i=0,c1=0,c2=0;
+        String com3[]={"O"," "," ","X","X"," "," "," "," "};//5
+        String com4[]={" "," "," "," ","X","X"," "," ","O"};//3
+        String com5[]={"O"," "," "," ","X","X"," "," "," "};//3
+        String com6[]={" "," ","O","X","X"," "," "," "," "};//5
+        String com7[]={" "," ","o"," ","X","X"," "," "," "};//3
+        String com8[]={" "," "," "," ","X","X","O"," "," "};//3
+        String com9[]={" "," "," ","X","X"," "," "," ","O"};//5
+        String com10[]={" "," "," ","X","X"," ","O"," "," "};//5
+
+        String com11[]={"O","X"," "," ","X"," "," "," "," "};//7
+        String com12[]={" ","X"," "," ","X"," ","O"," "," "};//7
+        String com13[]={"O"," "," "," ","X"," "," ","X"," "};//1
+        String com14[]={" "," "," "," ","X"," ","O","X"," "};//1
+
+        String com15[]={" ","X","O"," ","X"," "," "," "," "};//7
+        String com16[]={" ","X"," "," ","X"," "," "," ","O"};//7
+        String com17[]={" "," ","O"," ","X"," "," ","X"," "};//1
+        String com18[]={" "," "," "," ","X"," "," ","X","O"};//1
+
+        int i=0,c1=0,c2=0,c3=0,c4=0,c5=0,c6=0,c7=0,c8=0,c9=0,c10=0,c11=0,c12=0,c13=0,c14=0,c15=0,c16=0,c17=0,c18=0;
         for(i=0;i<9;i++)
         {
             if(arrch[i].equals(com1[i]))
@@ -3044,6 +3094,85 @@ public class MainActivity2 extends AppCompatActivity {
             if(arrch[i].equals(com2[i]))
                 c2++;
         }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com3[i]))
+                c3++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com4[i]))
+                c4++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com5[i]))
+                c5++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com6[i]))
+                c6++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com7[i]))
+                c7++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com8[i]))
+                c8++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com9[i]))
+                c9++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com15[i]))
+                c15++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com16[i]))
+                c16++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com17[i]))
+                c17++;
+        }for(i=0;i<9;i++)
+    {
+        if(arrch[i].equals(com18[i]))
+            c18++;
+    }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com10[i]))
+                c10++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com11[i]))
+                c11++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com12[i]))
+                c12++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com13[i]))
+                c13++;
+        }
+        for(i=0;i<9;i++)
+        {
+            if(arrch[i].equals(com14[i]))
+                c14++;
+        }
         if(c1==9)
         {
             p[0]=0;
@@ -3053,6 +3182,22 @@ public class MainActivity2 extends AppCompatActivity {
         {
             p[2]=0;
             p[6]=0;
+        }
+        else if(c13==9 || c14==9 || c17==9 | c18==9)
+        {
+            p[1]=100;
+        }
+        else if(c11==9 || c12==9 || c15==9 || c16==9)
+        {
+            p[7]=100;
+        }
+        else if(c4==9 || c5==9 || c7==9 | c8==9)
+        {
+            p[3]=100;
+        }
+        else if(c3==9 || c5==9 || c9==9 | c10==9)
+        {
+            p[5]=100;
         }
     }
 
